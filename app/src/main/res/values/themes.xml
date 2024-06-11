@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!--Le quito el NoActionBar (para que se mantenga el menu en totas las vistas) igualmente el el tema de "night"-->
+    <style name="Base.Theme.Hidalgo_Robles_Brayan_Alejandro_MA82" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!--Aqui se cambia los colores de los botones por default para toda la aplicación
+        sin necesidad de configurar uno por uno-->
+        <item name="colorPrimary">@color/ColorPrimario</item>
+        <item name="colorSecondary">@color/colorSecundario</item>
+    </style>
+
+    <style name="Theme.Hidalgo_Robles_Brayan_Alejandro_MA82" parent="Base.Theme.Hidalgo_Robles_Brayan_Alejandro_MA82" />
+</resources>
